@@ -23,7 +23,7 @@ footer {
 }
 
 main {
-    flex-direction:  column;
+    flex-direction: row-reverse;
     max-width: 960px;
     padding-bottom: 20px;
     margin: 0 auto;
@@ -61,7 +61,10 @@ table {
     border: 1px solid black;
 
 }
-
+#BigPic{
+    width:400px;
+    height:400px;
+}
 tr {
     background-color: #CC3300;
     border-bottom: 1px solid #000;
@@ -126,6 +129,11 @@ p{
     box-sizing: border-box !important;
 }
 
+#kostya{
+    display: flex;
+    flex-direction: column-reverse !important;
+}
+
 @media screen and (min-width:  960px) {
     #linksListContainer {
         order:  0;
@@ -159,5 +167,8 @@ p{
         text-align: center;
         margin-top: 0;
     }
-
+    #BigPic{
+        width: 700px;
+        height: 700px;
+    }
 }
