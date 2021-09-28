@@ -131,7 +131,9 @@ p{
     display: flex;
     flex-direction: column-reverse !important;
 }
-
+#table{
+    align-self: center;
+}
 @media screen and (min-width:  960px) {
     #linksListContainer {
         order:  0;
@@ -169,5 +171,9 @@ p{
     #BigPic{
         width: 700px;
         height: 700px;
+    }
+    #crutch{
+        display: flex;
+        flex-direction: column!important;
     }
 }
