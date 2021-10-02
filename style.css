@@ -134,7 +134,7 @@ p{
 #table{
     align-self: center;
 }
-@media screen and (min-width: 1024px) {
+@media (min-width: 1024px) {
     #linksListContainer {
         order:  0;
     }
