@@ -134,7 +134,7 @@ p{
 #table{
     align-self: center;
 }
-@media screen and (max-width: 1280px){
+@media screen and (min-width: 1280px){
     #linksListContainer {
         order:  0;
     }
@@ -153,7 +153,7 @@ p{
         flex-wrap:  wrap;
     }
     #navigation{
-        flex-direction: row;
+        flex-direction: row!important;
         flex-wrap:  wrap;
     }
     #nav-menu {
