@@ -7,7 +7,6 @@ header {
     margin-top: 10px;
     background-color: lawngreen;
     border-bottom: 1px solid #FF9900;
-    justify-content: space-between;
 }
 header,#navigation,main{
     display: flex;
@@ -24,7 +23,6 @@ footer {
 }
 
 main {
-    flex-direction: row-reverse;
     max-width: 960px;
     padding-bottom: 20px;
     margin: 0 auto;
@@ -33,7 +31,6 @@ main {
 
 body {
     background-image: url(https://steamcommunity.com/economy/profilebackground/items/469610/62d38130bb04b9c29da6e9c709d7d3bed45ac871.jpg);
-    font-family: serif, "Times new Roman";
 }
 
 #logo {
